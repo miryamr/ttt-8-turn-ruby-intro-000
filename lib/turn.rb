@@ -49,10 +49,10 @@ end
     user_input = gets.strip
     index = input_to_index(user_input)
     if valid_move?(board, index)
-      return move(board, index, character = "X")
+      return true
       display_board(board)
     else
-      puts "Please enter 1-9:"
+      return false
     end
   end
   
