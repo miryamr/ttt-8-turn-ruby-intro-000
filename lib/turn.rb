@@ -50,6 +50,6 @@ end
     index = input_to_index(user_input)
     if valid_move?(board, index)
       return move(board, index, character = "X")
-    else 
+    else
       return turn(board)  
     else
