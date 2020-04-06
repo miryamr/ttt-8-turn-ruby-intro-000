@@ -50,7 +50,7 @@ end
     user_input = gets.strip
     index = input_to_index(user_input)
     if valid_move?(board, index) == true
-      move(board, index, character = "X")
+      move(board, index)
       display_board(board)
     else
       return turn(board)
