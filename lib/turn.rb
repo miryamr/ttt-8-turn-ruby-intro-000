@@ -52,4 +52,6 @@ end
       return move(board, index, character = "X")
     else
       return turn(board)
-    
+  #Specific condition =
+# Until a specific condition == true
+#return 
