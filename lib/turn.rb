@@ -52,8 +52,7 @@ end
       return move(board, index, character = "X")
       display_board(board)
     else
-      until valid_move?(board, index)
-        turn(board)
-      end
+      puts "Please enter 1-9:"
     end
   end
+  
