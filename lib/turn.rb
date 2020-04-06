@@ -51,5 +51,5 @@ end
     if valid_move?(board, index)
       return move(board, index, character = "X")
     else
-      return turn(board)  
-    else
+      return turn(board)
+    
